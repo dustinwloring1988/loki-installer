@@ -8,12 +8,12 @@
 mkdir Loki && cd Loki
 
 # Download Tesla GPU Driver
-curl -fsSL https://us.download.nvidia.com/tesla/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
+curl -OL https://us.download.nvidia.com/tesla/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
 chmod +x NVIDIA-Linux-x86_64-515.65.01.run
 ./NVIDIA-Linux-x86_64-515.65.01.run
 
 # Download and install anaconda
-curl -fsSL https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+curl -OL https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 sh Anaconda3-2022.05-Linux-x86_64.sh
 
 
