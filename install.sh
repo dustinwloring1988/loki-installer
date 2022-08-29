@@ -46,6 +46,7 @@ git clone https://github.com/rbbrdckybk/stable-diffusion
 
 # Make Required Folder Structer
 mkdir checkpoints
+mkdir content
 mkdir content/models
 mkdir content/models/superres
 mkdir stable-diffusion/models/ldm/stable-diffusion-v1
